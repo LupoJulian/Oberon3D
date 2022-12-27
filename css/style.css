@@ -1,3 +1,6 @@
+/* PROPIEDADES INNATAS */
+
+
 body{
     background-color: #181240;
     height: 175vh;
@@ -20,12 +23,9 @@ footer{
     height: 25vh;
     grid-area: footer;
 }
-#articulo1{
-  grid-area: art1;
-}
-#articulo2{
-  grid-area: art2;
-}
+
+/*  ESTILOS GRIDS */
+
 #gridpaginicio{
   height: 175vh;
   width: 99%;
@@ -46,11 +46,22 @@ footer{
   grid-template-areas: 
   "header header"
   "art3 art4"
-  "footer footer"
-  ;
-  
+  "footer footer";
+}
+#articulo1{
+  grid-area: art1;
+}
+#articulo2{
+  grid-area: art2;
+}
+#articulo3{
+  grid-area: art3;
+}
+#articulo4{
+  grid-area: art4;
 }
 
+/*  ESTILOS DE TEXTO */
 
 .titulo{
     color: white;
@@ -87,6 +98,9 @@ footer{
   height: fit-content;
   
 }
+
+/*  MENU DESPLEGABLE */
+
 .dropdown {
     display: inline-block;
   }
@@ -111,6 +125,8 @@ footer{
     color: #FFFFFF;
     background-color: black;
   }
+
+/*  SLIDER */
 
 .prototipoSlider{
     font-family: sans-serif;
@@ -190,7 +206,7 @@ footer{
     font-size: 20px;
     border-radius: 100%;
   }
-
+/*  MEDIA QUERIES */
    
   @media(min-width: 768px)
    {.prototipoSlider{
