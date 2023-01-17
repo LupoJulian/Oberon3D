@@ -1,0 +1,26 @@
+main{
+    height: 45vh;
+    width: 100%;
+    div{
+        div{
+            div{
+                img{
+                    border-radius: 10px;
+                    border-style: solid
+                }
+                div{
+                    h5{
+                        @include caja(auto,fit-content,5px,5px,#181240a2,#BF9850);
+                    }
+                    p{
+                        @include caja(auto,fit-content,5px,5px,#181240a2,#BF9850);
+                        font-family: "font-family: 'Nerko One', cursive";
+                        a{
+                            color: map-get($Colores, amarillo);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

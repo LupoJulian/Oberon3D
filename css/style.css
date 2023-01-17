@@ -1,18 +1,37 @@
-/* PROPIEDADES INNATAS */
-body {
-  background-color: #181240; }
-
-header {
-  height: 15vh; }
-
 main {
   height: 45vh;
   width: 100%; }
+  main div div div img {
+    border-radius: 10px;
+    border-style: solid; }
+  main div div div div h5 {
+    margin: auto;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #181240a2;
+    color: #BF9850; }
+  main div div div div p {
+    margin: auto;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #181240a2;
+    color: #BF9850;
+    font-family: "font-family: 'Nerko One', cursive"; }
+    main div div div div p a {
+      color: #BF9850; }
 
-footer {
-  height: 25vh; }
+body {
+  background-image: linear-gradient(#2D17BF, #26168d, #181240 50%);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; }
+  body header {
+    height: 15vh; }
+  body footer {
+    height: 25vh; }
 
-/*  ESTILOS DE TEXTO */
 .titulo {
   color: white;
   font-family: 'Nerko One', cursive;
@@ -30,7 +49,6 @@ footer {
   padding: 20px;
   height: fit-content; }
 
-/*  C A R R U S E L*/
 .carrusel {
   height: 400px;
   width: 400px;

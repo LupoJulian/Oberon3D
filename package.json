@@ -1,7 +1,7 @@
 {
   "name": "sitio-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este sitio surgió como idea mía, dado que mi hermano es escultor digital y tiene patreon y redes sociales pero no una página propia. El nombre Oberon3D es creado por él pero todo el resto del diseño es mío.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

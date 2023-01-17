@@ -1,38 +1,22 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-
+@import "./varimixmap.scss";
+@import"./main.scss";
 
 body{
-    background-color: #181240;
-}
-
-header{ 
-    height: 15vh;
-}
-main{
-    height: 45vh;
+    background-image: linear-gradient(#2D17BF, #26168d, #181240 50%);
+    background-repeat: no-repeat;
+    height: 100%;
     width: 100%;
+    header{
+        height: 15vh;
+    }
+    footer{
+        height: 25vh;
+    }
 }
-footer{ 
-    height: 25vh;
-}
 
-
-
-.titulo{
-    color: white;
+.titulo { color: white;
     font-family: 'Nerko One', cursive;
     font-size: 50px;
-}
-.titulo__principal{
-    color: #BF9850;
-    font-family: 'Fredoka One', cursive;
-    text-align: center;
-    font-size: 50px;
-    width: 50%;
-    margin: auto;
-    align-items: center;
-
-
 }
 
 .parrafo{
@@ -42,15 +26,13 @@ footer{
     padding: 15px;
     border-style: dashed;
     border-color: #BF9850;
-}
-
-.articulos{
+  }
+  .articulos{
   padding: 20px;
   height: fit-content;
-}
-/*  C A R R U S E L*/
-.carrusel{
+  }
+  .carrusel{
   height: 400px;
   width: 400px;
   margin: auto;
-}
+  }

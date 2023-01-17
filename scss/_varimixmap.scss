@@ -1,0 +1,28 @@
+$Colores: (
+    violeta:#181240,
+    amarillo:#BF9850,
+    azul:#2D17BF,
+    celeste:#331AD9,
+    intermedio:hsl(248, 73%, 32%),
+    sombreado:#181240a2,
+    blanco: white,
+);
+
+@mixin caja($margin, $width, $border-radius, $padding,$fondo,$color) {
+    margin: $margin;
+    width: $width;
+    border-radius: $border-radius;
+    padding: $padding;
+    background-color: $fondo;
+    color: $color;
+ }
+
+ @mixin parrafo($fuente,$color,$tamañoFuente,$padding,$borderStyle,$borderColor,$margin){
+    font-family: $fuente;
+    color: $color;
+    font-size: $tamañoFuente;
+    padding: $padding;
+    border-style: $borderStyle;
+    border-color: $borderColor;
+ }
+ 
